@@ -15,7 +15,8 @@ retrofit请求步骤如下：
 见com.example.jetpack.retrofitdemo.retrofit.ApiService
 
    @GET("/api/api-wenan-mingrenmingyan/index.php")
-    Call<ResponseBody> getFamousWordsTextResult(@Query("aa1") String form);
+
+   Call<ResponseBody> getFamousWordsTextResult(@Query("aa1") String form);
 
 3、创建Retrofit对象、设置数据解析器。
 Gson gson = new GsonBuilder()
