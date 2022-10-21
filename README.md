@@ -12,7 +12,7 @@ retrofit请求步骤如下：
 
 2、创建接口设置请求类型与参数，
 
-见ApiService
+见com.example.jetpack.retrofitdemo.retrofit.ApiService
 
    @GET("/api/api-wenan-mingrenmingyan/index.php")
     Call<ResponseBody> getFamousWordsTextResult(@Query("aa1") String form);
